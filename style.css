@@ -1,0 +1,297 @@
+/*
+
+seletor{
+    propriedade:valor;
+
+}*/
+
+
+/*carrega um arquivo de fonte pro css
+vincular um arquivo de fonte no meu projeto*/
+
+/*fonte da pagina*/
+
+@font-face {
+    font-family: "Aileron Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Airelon), url('fontes/aileron-regular.otf') format('woff');
+}
+
+*{
+    font-family: Aileron Regular;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: black;
+    font-weight: 100;
+    font-size: large;
+}
+
+.fonte-amarela {
+    color:black
+}
+
+/*HOME*/
+
+#home{
+    background-image: url('imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+/*HEADER*/
+
+header > nav {
+    float: right;
+    font-size: 17px;
+    margin-right: 150px;
+    word-spacing: 35px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    word-spacing: normal;
+    margin-top: 10px;
+}
+
+.botao{
+    background-color: #4a90e2;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+}
+
+header {
+    height: 50px;
+}
+
+/*FIM DO HEADER*/
+
+/*LOGO*/
+
+section#logo {
+    text-align: center;
+    height: 600px;
+    margin-top: 5%;
+}
+.botao-logo{
+    background-color: #4a90e2;
+    border-radius: 5px;
+    width: 255px;
+    height: 55px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 55px;
+}
+
+.texto-abaixo-logo{
+    color:white;
+    height: 55px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*FIM DA LOGO*/
+
+/*CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
+
+section#diferenciais {
+    text-align: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.figura-sabor{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 4%;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+.figura-ingredientes{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 4%;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+.figura-compromisso{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 4%;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
+    border-radius: 5px;
+}
+
+.diferenciais-titulo{
+    text-align: center;
+    width: 200px;
+    height: 55px;
+}
+
+.saiba-mais{
+    text-decoration: none;
+    height: 55px;
+    color: black;
+}
+
+/*body > section > figure > a {
+    text-decoration: none;
+    color: white;
+    word-spacing: normal;
+    margin-top: 10px;
+}*/
+
+
+/*FIM DAS CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
+
+/*DEPOIMENTO*/
+
+.retangulo-depoimento{
+    background-color: #4a90e2;
+    height: 700px;
+}
+
+#depoimento-texto{
+    float: left; 
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.nosso-compromisso{
+    color: white;
+}
+
+.texto-depoimento{
+    width: 250px;
+    margin-top: 25%;
+    font-size: normal;
+    margin-bottom: -15px;
+}
+
+.nome-pessoa{
+    color: white;
+    font-size: medium;
+}
+
+.profissao{
+    font-size: small;
+}
+
+
+#depoimento-foto{
+    float: right;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+
+.foto-depoimento{
+    height: 350px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+/*FIM DO DEPOIMENTO*/
+
+/*LOGO PRETA*/
+
+#logo-preta{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.logomarca-preta{
+    height: 15%;
+    width: 15%;
+}
+
+/*FIM DA LOGO PRETA*/
+
+/*FOOTER*/
+
+#footer-esquerda{
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 15px;
+    word-spacing: 20px;
+    margin-left: 15%;
+}
+
+footer > section > a {
+    text-decoration: none;
+    color: black;
+    word-spacing: normal;
+}
+
+#footer-direita{
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-right: 15%;
+}
+
+.icones-social{
+    width: 25px;
+    height: 25px;
+}
+
+/*FIM DO FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.classe{
+
+}
+
+-------------------
+
+#id{
+
+}
+
+*/
+
