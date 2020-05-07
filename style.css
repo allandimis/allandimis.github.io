@@ -1,42 +1,150 @@
-/*
+/*INICIO FONTES*/
 
-seletor{
-    propriedade:valor;
-
-}*/
-
-
-/*carrega um arquivo de fonte pro css
-vincular um arquivo de fonte no meu projeto*/
-
-/*fonte da pagina*/
+@media only screen and (max-width: 600px) {}
 
 @font-face {
     font-family: "Aileron Regular";
     font-style: normal;
     font-weight: normal;
-    src: local(Airelon), url('fontes/aileron-regular.otf') format('woff');
+    src: local(Aileron), url('fontes/aileron-regular.otf') format('woff');
 }
 
-*{
+@font-face {
+    font-family: "Aileron Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-italic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-UltraLight.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron ThinItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-thinitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-ultralightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-light.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron LightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-lightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-SemiBold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-SemiBoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-bolditalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-black.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-heavy.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BlackItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-blackitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron HeavyItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-heavyitalic.otf') format('woff');
+}
+
+* {
     font-family: Aileron Regular;
 }
 
-body {
-    background-color: aliceblue;
+a:hover {
+    border-bottom: 2px solid #4a90e2;
 }
 
-h1 {
-    color: black;
-    font-weight: 100;
-    font-size: large;
+header > nav > a:hover {
+    border-bottom: 2px solid white;
 }
 
-.fonte-amarela {
-    color:black
+/*O PEÇA ONLINE TAMBEM FICOU COM O HOVER BRANCO, QUERIA DEIXAR AZUL 
+/* PORQUE ISSO?
+
+header>nav>a:hover:after {
+    width: 49.3px;
+    height: 0;
+    border: solid 3px #ffffff;
 }
+*/
+
+/*FIM FONTES*/
 
 /*HOME*/
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0px;
+}
 
 #home{
     background-image: url('imagens/fundo.png');
@@ -45,21 +153,46 @@ h1 {
     background-size: 100%;
 }
 
-/*HEADER*/
+/*INICIO HEADER*/
 
 header > nav {
     float: right;
     font-size: 17px;
-    margin-right: 150px;
-    word-spacing: 35px;
+    margin-right: 100px;
+    word-spacing: 15px;
+    font-family: "Aileron Regular";
 }
 
 header > nav > a {
     text-decoration: none;
     color: white;
     word-spacing: normal;
-    margin-top: 10px;
+    padding: 1px 5px;
 }
+
+header {
+    height: 80px;
+    margin-top: 25px;
+}
+
+/*PORQUE ESSE BLACK? ONDE ELE APARECE? PORQUE ESSE AFTER? O QUE ELE FAZ?
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header>nav>a:hover:after {
+    width: 49.3px;
+    height: 0;
+    border: solid 3px #ffffff;
+}
+
+*/
+
+/*FIM DO HEADER*/
+
+/* INICIO BOTOES */
 
 .botao{
     background-color: #4a90e2;
@@ -68,48 +201,53 @@ header > nav > a {
     height: 40px;
     color: white;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    line-height: 40px;
+    font: normal normal 18px/40px "Aileron Regular", sans-serif;
+    text-decoration: none;
 }
 
-header {
-    height: 50px;
-}
-
-/*FIM DO HEADER*/
-
-/*LOGO*/
-
-section#logo {
-    text-align: center;
-    height: 600px;
-    margin-top: 5%;
-}
 .botao-logo{
     background-color: #4a90e2;
     border-radius: 5px;
-    width: 255px;
+    width: 245px;
     height: 55px;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    line-height: 55px;
+    font: normal normal 18px/55px "Aileron Regular", sans-serif;
+}
+
+/*FIM BOTOES*/
+
+/*INICIO LOGO*/
+
+section#logo {
+    text-align: center;
+    height: 550px;
+    margin-top: 5%;
 }
 
 .texto-abaixo-logo{
-    color:white;
-    height: 55px;
-    width: 700px;
+    color: #d2d2d2;
+    height: 109px;
+    width: 655px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    font-family: aileron;
+    font-size: 18px;
+    line-height: 1.89;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-weight: 50;   
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-/*FIM DA LOGO*/
+/*FIM LOGO*/
 
-/*CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
+/*INICIO CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
 
 section#diferenciais {
     text-align: center;
@@ -118,45 +256,18 @@ section#diferenciais {
     justify-content: center;
 }
 
-.figura-sabor{
-    text-align: center;
-    width: 200px;
-    height: 300px;
+section>figure {
     float: left;
-    padding: 4%;
-    background-color: white;
-    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
-    border-radius: 5px;
-    margin-right: 0;
 }
 
-.figura-ingredientes{
-    text-align: center;
-    width: 200px;
-    height: 300px;
-    float: left;
-    padding: 4%;
-    background-color: white;
-    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
-    border-radius: 5px;
-    margin-right: 0;
-}
-
-.figura-compromisso{
-    text-align: center;
-    width: 200px;
-    height: 300px;
-    float: left;
-    padding: 4%;
-    background-color: white;
-    box-shadow: 0px 0px 2px 0px rgba(184,175,184,1);
-    border-radius: 5px;
-}
-
-.diferenciais-titulo{
-    text-align: center;
-    width: 200px;
-    height: 55px;
+#diferenciais>figure {
+    width: 225px;
+    height: 325px;
+    border-radius: 3px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 1em;
 }
 
 .saiba-mais{
@@ -165,21 +276,42 @@ section#diferenciais {
     color: black;
 }
 
-/*body > section > figure > a {
-    text-decoration: none;
-    color: white;
-    word-spacing: normal;
-    margin-top: 10px;
-}*/
+.diferenciais-titulo {
+    color: #2c2e30;    
+    font-family: Aileron;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
 
+.diferenciais-titulo strong {
+    width: 158px;
+    height: 63px;
+    font-family: Aileron;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a90e2;
+}
 
-/*FIM DAS CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
+/*FIM CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
 
-/*DEPOIMENTO*/
+/*INICIO DEPOIMENTO*/
 
 .retangulo-depoimento{
     background-color: #4a90e2;
     height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #depoimento-texto{
@@ -221,9 +353,9 @@ section#diferenciais {
     border-radius: 5px;
 }
 
-/*FIM DO DEPOIMENTO*/
+/*FIM DEPOIMENTO*/
 
-/*LOGO PRETA*/
+/*INICIO LOGO PRETA*/
 
 #logo-preta{
     text-align: center;
@@ -236,13 +368,31 @@ section#diferenciais {
     width: 15%;
 }
 
-/*FIM DA LOGO PRETA*/
+/*FIM LOGO PRETA*/
 
-/*FOOTER*/
+/*INICIO FOOTER*/
 
+/*
+*
+*
+*
+*
+*
+*
+*
+NÃO CONSEGUI ENCAIXAR O FOOTER DO GABARITO AQUI, NAO ENTENDI NEM COMO FUNCIONARIA
+*
+*
+*
+*
+*
+*
+*
+*
+*/
 #footer-esquerda{
     text-decoration: none;
-    color: black;
+    color: #54565A;
     float: left;
     font-size: 15px;
     word-spacing: 20px;
@@ -251,7 +401,7 @@ section#diferenciais {
 
 footer > section > a {
     text-decoration: none;
-    color: black;
+    color: #54565A;
     word-spacing: normal;
 }
 
@@ -259,7 +409,7 @@ footer > section > a {
     float: right;
     font-size: 15px;
     text-decoration: none;
-    color: black;
+    color: #54565A;
     margin-right: 15%;
 }
 
@@ -268,7 +418,7 @@ footer > section > a {
     height: 25px;
 }
 
-/*FIM DO FOOTER*/
+/*FIM FOOTER*/
 
 
 

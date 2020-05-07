@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Monte seu pedido - Platzi Pizzeria</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Pizzaria Platzi. Sabores incomparaveis, Ingredientes de alta qualidade e Compromisso de entrega.">
+    <link href="pedidos.css" rel="stylesheet" /> <!-- para linkar com o css-->
+</head>
+
+<body id="pedidos">
+    <header>
+        <!-- Menu superior -->
+        <nav>
+            <img class="logo-preta" src="imagens/logo_preta.svg" alt="logo">
+            <a href="index.html" class="header-direita">Home</a>
+            <a href="receitas.html" class="header-direita">Cardápio</a>
+        </nav>
+    </header>
+        <!-- formulario para pedido -->
+        <!-- sabor -->
+    <section id="formulario">
+        <form action="/action_page.html">
+            <div class="sabor">
+                <label for="sabor">Escolha o sabor da sua pizza</label>
+                <select id="sabor" name="sabores">
+                <option value="Calabresa">Calabresa</option>
+                <option value="4 Queijos">4 Queijos</option>
+                <option value="Mussarela">Mussarela</option>
+                <option value="Frango com catupiry">Frango com catupiry</option>
+                </select>
+            </div>
+        <!-- tamanho -->
+             <div class="tamanho">
+                 <label for="tamanho">Escolha o tamanho da sua pizza</label>
+               <select id="tamanho" name="tamanhos">
+                <option value="Broto">Broto</option>
+                  <option value="Média">Média</option>
+                <option value="Grande">Grande</option>
+                  <option value="Gigante">Gigante</option>
+                  </select>
+            </div>
+        <!-- endereço -->
+            <div class="endereço">
+                <label for="endereço">Insira seu endereço:</label><br>
+                <input type="text" id="endereço" name="endereço"><br><br>
+            
+                <p>Unicamente para o Brasil</p>
+                <img class="maps" src="imagens/mapa.png"/>
+            </div>
+        <!-- confirma -->
+            <div class="confirmar">
+                <input type="submit" value="Confirmar">
+            </div>
+        </form>
+    </section>
+        <!-- logo preta -->
+    <section id="logo-preta">
+        <img class="logomarca-preta" src="imagens/logo_preta.svg" />
+    </section>
+        <!-- footer -->
+    <footer>
+        <section id="footer-esquerda">
+            <a href="status.html">Status</a>
+            <a href="politicas.html">Privacy & Terms</a>
+            <a href="contato.html">Contact Us</a>
+        </section>
+
+        <section id="footer-direita">
+            <img src="imagens/bandeira-brasil.svg" />
+            <a href="http://instagram.com" target="_blank"> <img class="icones-social" src="imagens/Instagram_1.svg" />
+            </a>
+            <a href="http://facebook.com" target="_blank"> <img class="icones-social" src="imagens/Facebook_1.svg" />
+            </a>
+            <a href="http://twitter.com" target="_blank"> <img class="icones-social" src="imagens/Twitter_1.svg" /> </a>
+        </section>
+    </footer>
+
+</body>    

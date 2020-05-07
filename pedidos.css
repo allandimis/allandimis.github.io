@@ -1,0 +1,175 @@
+@media only screen and (max-width: 600px) {}
+
+@font-face {
+    font-family: "Aileron Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-italic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-UltraLight.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron ThinItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-thinitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-ultralightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-light.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron LightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-lightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-SemiBold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/Aileron-SemiBoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-bolditalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-black.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-heavy.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BlackItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-blackitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron HeavyItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontes/aileron-heavyitalic.otf') format('woff');
+}
+
+* {
+    font-family: Aileron Regular;
+}
+
+/*FIM FONTES*/
+
+/*HOME*/
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0px;
+}
+
+#home{
+    background-image: url('imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+/*INICIO HEADER*/
+
+header > nav {
+    float: right;
+    font-size: 17px;
+    margin-right: 100px;
+    word-spacing: 15px;
+    font-family: "Aileron Regular";
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    word-spacing: normal;
+    padding: 1px 5px;
+}
+
+header {
+    height: 80px;
+    background-color: #4990e2;
+    display: flex;
+    justify-content: center;
+}
+
+.header-direita{
+    float: right;
+}
+
+.logo-preta{
+    width: 50px;
+    height: 50px;
+}
+
+#formulario {
+    text-align: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+}
