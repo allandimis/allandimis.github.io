@@ -121,7 +121,7 @@
 /*HOME*/
 
 body {
-    background-color: aliceblue;
+    background-color: white;
     margin: 0;
     padding: 0px;
 }
@@ -135,7 +135,7 @@ body {
 
 /*INICIO HEADER*/
 
-header > nav {
+header > section {
     float: right;
     font-size: 17px;
     margin-right: 100px;
@@ -143,7 +143,7 @@ header > nav {
     font-family: "Aileron Regular";
 }
 
-header > nav > a {
+header > section > a {
     text-decoration: none;
     color: white;
     word-spacing: normal;
@@ -153,18 +153,32 @@ header > nav > a {
 header {
     height: 80px;
     background-color: #4990e2;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 2em;
 }
 
-.header-direita{
-    float: right;
-}
 
-.logo-preta{
+#header-esquerda{
     width: 50px;
-    height: 50px;
+    height: 80px;
+    float: left;
+    margin-left: 20%;
 }
+
+.logo-preta {
+    width: 50px;
+    height: 80px;
+}
+
+#header-direita{
+    height: 80px;
+    margin-right: 20%;
+    word-spacing: normal;
+    margin-top: 1em;
+}
+
+
+/* FIM HEADER */
+/* INICIO FORMS*/
 
 #formulario {
     text-align: center;
@@ -172,4 +186,94 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.sabor{
+    width: 300px;
+    box-shadow: 0px 0px 3px 0px;
+    padding: 1%;
+}
+
+.tamanho{
+    width: 300px;
+    box-shadow: 0px 0px 3px 0px;
+    padding: 1%;
+}
+
+.endereço{
+    width: 300px;
+    box-shadow: 0px 0px 3px 0px;
+    padding: 1%;
+}
+
+
+.maps {
+    width: 100%;
+    height: 350px;
+}
+
+.botao{
+    background-color: #00244d;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font: normal normal 18px/40px "Aileron Regular", sans-serif;
+    text-decoration: none;
+}
+
+
+.botao-confirma {
+    background:#4a90e2 no-repeat; 
+    cursor:pointer; 
+    width: 150px; 
+    height: 40px; 
+    border: none; 
+    color:white;
+    font: normal normal 18px/40px "Aileron Regular", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#logo-preta{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+.logomarca-preta{
+    height: 15%;
+    width: 15%;
+}
+
+#footer-esquerda{
+    text-decoration: none;
+    color: #54565A;
+    float: left;
+    font-size: 15px;
+    word-spacing: 20px;
+    margin-left: 15%;
+}
+
+footer > section > a {
+    text-decoration: none;
+    color: #54565A;
+    word-spacing: normal;
+}
+
+#footer-direita{
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    color: #54565A;
+    margin-right: 15%;
+}
+
+.icones-social{
+    width: 25px;
+    height: 25px;
 }

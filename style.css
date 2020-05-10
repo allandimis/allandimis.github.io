@@ -196,7 +196,7 @@ header>nav>a:hover:after {
 
 .botao{
     background-color: #4a90e2;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 150px;
     height: 40px;
     color: white;
@@ -208,7 +208,7 @@ header>nav>a:hover:after {
 
 .botao-logo{
     background-color: #4a90e2;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 245px;
     height: 55px;
     color: white;
