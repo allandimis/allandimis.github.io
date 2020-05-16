@@ -170,25 +170,10 @@ header > nav > a {
     padding: 1px 5px;
 }
 
-header {
+.header-index {
     height: 80px;
     margin-top: 25px;
 }
-
-/*PORQUE ESSE BLACK? ONDE ELE APARECE? PORQUE ESSE AFTER? O QUE ELE FAZ?
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-header>nav>a:hover:after {
-    width: 49.3px;
-    height: 0;
-    border: solid 3px #ffffff;
-}
-
-*/
 
 /*FIM DO HEADER*/
 
@@ -217,11 +202,9 @@ header>nav>a:hover:after {
     display: inline-block;
     font: normal normal 18px/55px "Aileron Regular", sans-serif;
 }
-
 /*FIM BOTOES*/
 
 /*INICIO LOGO*/
-
 section#logo {
     text-align: center;
     height: 550px;
@@ -244,11 +227,9 @@ section#logo {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
 /*FIM LOGO*/
 
 /*INICIO CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
-
 section#diferenciais {
     text-align: center;
     height: 350px;
@@ -300,11 +281,9 @@ section>figure {
     text-align: center;
     color: #4a90e2;
 }
-
 /*FIM CAIXAS DESCRITIVAS DE DIFERENCIAIS*/
 
 /*INICIO DEPOIMENTO*/
-
 .retangulo-depoimento{
     background-color: #4a90e2;
     height: 700px;
@@ -340,7 +319,6 @@ section>figure {
     font-size: small;
 }
 
-
 #depoimento-foto{
     float: right;
     margin-right: 30%;
@@ -352,11 +330,9 @@ section>figure {
     width: 330px;
     border-radius: 5px;
 }
-
 /*FIM DEPOIMENTO*/
 
 /*INICIO LOGO PRETA*/
-
 #logo-preta{
     text-align: center;
     margin-top: 2%;
@@ -367,29 +343,9 @@ section>figure {
     height: 15%;
     width: 15%;
 }
-
 /*FIM LOGO PRETA*/
 
 /*INICIO FOOTER*/
-
-/*
-*
-*
-*
-*
-*
-*
-*
-NÃO CONSEGUI ENCAIXAR O FOOTER DO GABARITO AQUI, NAO ENTENDI NEM COMO FUNCIONARIA
-*
-*
-*
-*
-*
-*
-*
-*
-*/
 #footer-esquerda{
     text-decoration: none;
     color: #54565A;
@@ -417,31 +373,127 @@ footer > section > a {
     width: 25px;
     height: 25px;
 }
-
 /*FIM FOOTER*/
 
 
-
-
-
-
-
-
-
-
-
-
-/*
-
-.classe{
-
+/*PAGINA DE PEDIDOS*/
+/*HEADER*/
+header > section {
+    float: right;
+    font-size: 17px;
+    margin-right: 100px;
+    word-spacing: 15px;
+    font-family: "Aileron Regular";
 }
 
--------------------
-
-#id{
-
+header > section > a {
+    text-decoration: none;
+    color: white;
+    word-spacing: normal;
+    padding: 1px 5px;
 }
 
-*/
+.header-pedidos {
+    height: 80px;
+    background-color: #4990e2;
+    margin-bottom: 2em;
+}
+
+#header-esquerda{
+    width: 50px;
+    height: 80px;
+    float: left;
+    margin-left: 20%;
+}
+
+.logo-preta {
+    width: 50px;
+    height: 80px;
+}
+
+#header-direita{
+    height: 80px;
+    margin-right: 10%;
+    word-spacing: 10px;
+    margin-top: 1em;
+}
+
+
+/* FIM HEADER */
+/* INICIO FORMS*/
+
+.sabor-tamanho{
+    max-width: 100%;
+    width: 44%;
+    height: 60px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.14);
+    float: left;
+    margin: 0em 2em 0em 2em;
+    text-align-last: center;
+    line-height: 60px;
+    border-radius: 3px;
+}
+
+.endereço { 
+    max-width: 100%;
+    width: 93%;
+    height: 60px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    float: left;
+    margin: 2em em 2em 2em;    
+    text-align: center;
+    display: flex;
+    line-height: 60px;
+    border-radius: 3px;
+    
+}
+
+.maps {
+    margin: 1em 0em 1em 0em;
+}
+
+.botao-escuro{
+    background-color: #00244d;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font: normal normal 18px/40px "Aileron Regular", sans-serif;
+    text-decoration: none;
+}
+
+.botao-confirma {
+    background:#4a90e2 no-repeat; 
+    cursor:pointer; 
+    width: 150px; 
+    height: 40px; 
+    border: none; 
+    color:white;
+    font: normal normal 18px/40px "Aileron Regular", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 1em;
+}
+
+
+/* PAGINA SABORES */ 
+
+#grid-sabores {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aliceblue;
+    margin: 5em;
+    gap: 5em;
+}
+
+.grid-sabor {
+  max-width: 80%;
+  text-align: left;
+}
+
+
+/* INICIO CONTATO */
 
