@@ -21,24 +21,26 @@
             <a href="pedido.html" class="botao-escuro">Peça online</a>
         </section>
     </header>
-    <section>
-        <div>
+    <section id="form-cliente">
+        <div class="form-cliente-title">
             <h1>ENVIE SEU COMENTARIO DUVIDA OU RECLAMAÇÃO</h1>
+        </div>
+        <div>
             <h2>Nós valorizamos sua opinião e queremos saber sobre sua experiência em nossas pizzarias.</h2>
             <p>Por favor preencha o formulário abaixo. *Campos Obrigatórios</p>
         </div>
-        <div>
+        <div >
             <form action="/action_page.php" id="usrform">
                 <label for="fname">Seu nome:</label>
-                <input type="text" id="fname">
+                <input type="text" id="fname" placeholder="Ex: Alexandre" class="bloco-forms">
               </form>
 
               <form action="/action_page.php" id="usrform">
-                Seu Telefone: <input type="text" name="usrname">
+                Seu Telefone: <input type="text" name="usrname" placeholder="Ex:(11)99999-9999" class="bloco-forms">
               </form>
 
               <form action="/action_page.php" id="usrform">
-                Seu E-Mail: <input type="text" name="usrname">
+                Seu E-Mail: <input type="text" name="usrname" placeholder="Ex: seuemail@exemplo.com" class="bloco-forms">
               </form>
         </div>
 
@@ -54,8 +56,8 @@
 
         <div>
               <br>
-              <textarea rows="4" cols="50" name="comment" form="usrform">
-              Enter text here...</textarea>
+              <p>Sua mensagem:</p>
+              <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Seu texto aqui..." class="bloco-formstext"></textarea>
         </div>
     </section>
 
