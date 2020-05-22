@@ -25,40 +25,46 @@
         <!-- sabor -->
     <section id="formulario">
         <form action="/action_page.html">
-            <fieldset>
-                <div class="menu-sabor">
-                    <label for="sabor">Escolha o sabor da sua pizza</label>
-                    <select id="sabor" name="sabores">
-                    <option value="Calabresa">Calabresa</option>
-                    <option value="4 Queijos">4 Queijos</option>
-                    <option value="Mussarela">Mussarela</option>
-                    <option value="Frango com catupiry">Frango com catupiry</option>
-                    </select>
-                </div>
-                            <!-- tamanho -->
-                <div class="menu-tamanho">
-                    <label for="tamanho">Escolha o tamanho da sua pizza</label>
-                    <select id="tamanho" name="tamanhos">
-                    <option value="Broto">Broto</option>
-                    <option value="Média">Média</option>
-                    <option value="Grande">Grande</option>
-                    <option value="Gigante">Gigante</option>
-                    </select>
-                </div>
+            <fieldset id="form-pedido">
+          
+                  <div class="row">
+                    <div class="col-md-5 mb-3">
+                      <label for="sabor">Escolha o sabor da pizza:</label>
+                      <select class="custom-select " id="sabor" required>
+                        <option value="">Clique para escolher o sabor</option>
+                        <option value="1">Nordestina</option>
+                        <option value="2">Quatro Queijos</option>
+                        <option value="3">Margherita</option>
+                        <option value="4">Salame</option>
+                        <option value="5">Pepperoni</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="tamanho">Escolha o tamanho da pizza:</label>
+                      <select class="custom-select " id="tamanho" required>
+                        <option value="">Clique para escolher o tamanho</option>
+                        <option value="1">Gigante</option>
+                        <option value="2">Grande</option>
+                        <option value="3">Média</option>
+                        <option value="4">Pequena</option>
+                      </select>
+                    </div>
             </fieldset>
         <!-- endereço -->
-            <fieldset id="campoEndereço">
-                <div class="endereço">
-                    <label for="endereço">Insira seu endereço completo</label><br>
-                    <p><input type="text" id="endereço" name="endereço" placeholder="Escreva seu endereço aqui..."><br><br>
-                </div>
-                <div>
-                    <p>Unicamente para o Brasil</p>
+            <fieldset id="form-pedido">
+                <div class="mb-3">
+                    <label for="address">Endereço: </label>
+                    <input type="text" class="address" id="address" placeholder="Insira seu endereço aqui">
+                  </div>
+            </fieldset>    
+            
+            <p>Unicamente para o Brasil</p>
+                <div class="maps">
+
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.0623300018656!2d-48.55158178537833!3d-27.591597128503054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952739fb8dea8391%3A0x908a25d4508c4a13!2sMozza%20Pizzeria!5e0!3m2!1spt-BR!2sbr!4v1589519353157!5m2!1spt-BR!2sbr" width="1200" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="maps"></iframe>
                 </div>
-            </fieldset>
         <!-- confirma -->
-            <div>
+            <div id="botao-confirma">
                 <input type="submit" class="botao-confirma" value="Confirmar">
             </div>
         </form>
